@@ -1,0 +1,51 @@
+## Archivos de compilación y publicación
+bin/
+obj/
+out/
+publish/
+
+## Configuración de usuario (evitar subir configuraciones locales)
+*.user
+*.suo
+*.userprefs
+
+## Archivos temporales
+*.log
+*.tmp
+*.bak
+*.swp
+
+## Archivos de VS Code
+.vscode/
+
+## Archivos de Visual Studio y Rider
+.idea/
+*.sln.docstates
+
+## Archivos generados por herramientas
+*.ncrunch*
+*.localhistory/
+*.DS_Store
+*.vs/
+
+## Configuraciones específicas de dotnet
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Paquetes descargados
+*.nupkg
+packages/
+.nuget/
+
+## Archivos generados por dotnet
+*.deps.json
+*.runtimeconfig.json
+
+## Secretos del usuario (evitar subir)
+secrets.json
+.env
+.env.*
+
+# Ignorar archivos globales opcionales
+global.json
