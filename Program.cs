@@ -1,5 +1,5 @@
 ﻿
-using curso_dotnet.fundamentals;
+using curso_dotnet.flow_control;
 
 Console.WriteLine("== Curso de .NET ==");
-Outputs.Run();
+Iterators.Run();
