@@ -1,4 +1,4 @@
-﻿using curso_dotnet.functions;
+﻿using curso_dotnet.exceptions;
 
 Console.WriteLine("== Curso de .NET ==");
-Functions.Run();
+Exceptions.Run();
