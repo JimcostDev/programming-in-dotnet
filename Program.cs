@@ -1,4 +1,4 @@
-﻿using curso_dotnet.data_structure;
+﻿using curso_dotnet.functions;
 
 Console.WriteLine("== Curso de .NET ==");
-Dicts.Run();
+Functions.Run();
