@@ -1,4 +1,4 @@
-﻿using curso_dotnet.ef;
+﻿using curso_dotnet.functional_programming;
 
 Console.WriteLine("== Curso de .NET ==");
-ExamplesEF.Run();
+FunctionalDemo.Run();
