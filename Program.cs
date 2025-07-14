@@ -1,4 +1,4 @@
-﻿using curso_dotnet.functional_programming;
+﻿using curso_dotnet.exercises;
 
 Console.WriteLine("== Curso de .NET ==");
-FunctionalDemo.Run();
+ImcCalculator.Run();
