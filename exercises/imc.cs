@@ -1,3 +1,4 @@
+using System.Globalization;
 namespace curso_dotnet.exercises
 {
     public static class ImcCalculator
@@ -47,19 +48,23 @@ namespace curso_dotnet.exercises
 
         public static void Run()
         {
-            Console.Write("Introduce tu peso en kg (ej. 66,1): ");
+            Console.Write("Introduce tu peso en kg (ej. 66.3): ");
             string? pesoInput = Console.ReadLine();
 
-            if (!double.TryParse(pesoInput, out double peso))
+            double peso;
+            // Intentamos parsear con la cultura invariante (punto)
+            if (!double.TryParse(pesoInput, NumberStyles.Any, CultureInfo.InvariantCulture, out peso))
             {
                 Console.WriteLine("Error: Debes introducir un peso válido.");
                 return;
             }
 
-            Console.Write("Introduce tu altura en metros (ej. 1,84): ");
+            Console.Write("Introduce tu altura en metros (ej. 1.84: ");
             string? estaturaInput = Console.ReadLine();
 
-            if (!double.TryParse(estaturaInput, out double estatura))
+            double estatura;
+            // Hacemos lo mismo para la altura
+            if (!double.TryParse(estaturaInput, NumberStyles.Any, CultureInfo.InvariantCulture, out estatura))
             {
                 Console.WriteLine("Error: Debes introducir una altura válida.");
                 return;
