@@ -1,4 +1,4 @@
-﻿using curso_dotnet.exercises;
+﻿using curso_dotnet.poo;
 
 Console.WriteLine("== Curso de .NET ==");
-ImcCalculator.Run();
+FighterDemo.Run();
