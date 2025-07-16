@@ -13,8 +13,8 @@ namespace curso_dotnet.exercises
         {
             public void Greeting()
             {
-                string? name = Environment.GetEnvironmentVariable("USER");
-                Console.WriteLine($"Hola {name} bienvenido al sitio web!");
+                string? name = Environment.GetEnvironmentVariable("USERNAME");
+                Console.WriteLine($"Hola {name ?? "invitado"} bienvenido al sitio web!");
             }
         }
 
