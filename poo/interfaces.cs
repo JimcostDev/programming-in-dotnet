@@ -1,6 +1,3 @@
-// File: Fighter.cs
-using System;
-
 namespace curso_dotnet.poo
 {
     // Interfaz que define el comportamiento genérico de un luchador

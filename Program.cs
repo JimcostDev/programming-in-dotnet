@@ -1,4 +1,4 @@
-﻿using curso_dotnet.poo;
+﻿using curso_dotnet.exercises;
 
 Console.WriteLine("== Curso de .NET ==");
-FighterDemo.Run();
+Interface.Run();
