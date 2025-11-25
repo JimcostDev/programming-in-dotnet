@@ -7,6 +7,12 @@ Este repositorio contiene el código fuente del curso de C# utilizando .NET.
 dotnet new console -n curso-dotnet
 ```
 
+### Crear nuevo proyecto de api:
+```sh
+dotnet new list
+dotnet new web -n api
+```
+
 ### Ejecutar el proyecto::
 ```sh
 dotnet run
