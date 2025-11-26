@@ -1,4 +1,11 @@
-﻿using curso_dotnet.exercises;
+﻿namespace curso_dotnet;
 
-Console.WriteLine("== Curso de .NET ==");
-Interface.Run();
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("== Curso de .NET ==");
+        DataTypes.Run();
+        ImcCalculator.Run();
+    }
+}

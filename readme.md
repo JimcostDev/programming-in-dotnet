@@ -10,7 +10,7 @@ dotnet new console -n curso-dotnet
 ### Crear nuevo proyecto de api:
 ```sh
 dotnet new --list
-dotnet new web -n api
+dotnet new web -n nombre-proyecto
 ```
 
 ### Ejecutar el proyecto::

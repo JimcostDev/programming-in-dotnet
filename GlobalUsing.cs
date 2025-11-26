@@ -1,0 +1,10 @@
+global using curso_dotnet.fundamentals;
+global using curso_dotnet.exercises;
+global using curso_dotnet.data_structure;
+global using curso_dotnet.ef;
+global using curso_dotnet.exceptions;
+global using curso_dotnet.flow_control;
+global using curso_dotnet.functional_programming;
+global using curso_dotnet.functions;
+global using curso_dotnet.poo;
+global using curso_dotnet.linq;
